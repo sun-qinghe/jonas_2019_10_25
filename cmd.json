@@ -1,0 +1,327 @@
+[
+    {
+        "name"      : "重启设备",
+        "cmd"       : "S900",
+        "parameters": []
+    },
+    {
+        "name"      : "远程升级",
+        "cmd"       : "S200",
+        "parameters": [
+            {
+                "name": "http地址",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "获取锁状态",
+        "cmd"       : "S201",
+        "parameters": []
+    },
+    {
+        "name"      : "开锁",
+        "cmd"       : "S202",
+        "parameters": []
+    },
+    {
+        "name"      : "锁车",
+        "cmd"       : "S302",
+        "parameters": []
+    },
+    {
+        "name"      : "ACC打开",
+        "cmd"       : "S326",
+        "parameters": []
+    },
+    {
+        "name"      : "ACC关闭",
+        "cmd"       : "S327",
+        "parameters": []
+    },
+    {
+        "name"      : "打开电池仓",
+        "cmd"       : "S328",
+        "parameters": []
+    },
+    {
+        "name"      : "找车响铃",
+        "cmd"       : "S203",
+        "parameters": []
+    },
+    {
+        "name"      : "实时语音播报",
+        "cmd"       : "S207",
+        "parameters": [
+            {
+                "name": "将要播报的文本",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置语音文字",
+        "cmd"       : "S208",
+        "parameters": [
+            {
+                "name": "语音序号",
+                "type": "input",
+                "option": []
+            },
+            {
+                "name": "将要播报的文本",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置语音音量",
+        "cmd"       : "S209",
+        "parameters": [
+            {
+                "name": "请选择音量",
+                "type": "select",
+                "option": [
+                    "0",
+                    "1",
+                    "2",
+                    "3",
+                    "4",
+                    "5",
+                    "6",
+                    "7"
+                ]
+            }
+        ]
+    },
+    {
+        "name"      : "更改服务器",
+        "cmd"       : "S301",
+        "parameters": [
+            {
+                "name": "服务IP",
+                "type": "input",
+                "option": []
+            },
+            {
+                "name": "服务端口",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "震动时蜂鸣器报警开关",
+        "cmd"       : "S303",
+        "parameters": [
+            {
+                "name": "选项",
+                "type": "single",
+                "option": [
+                    "关",
+                    "开",
+                ]
+            }
+        ]
+    },
+    {
+        "name"      : "更改GPS回报时间",
+        "cmd"       : "S304",
+        "parameters": [
+            {
+                "name": "锁车时秒数",
+                "type": "input",
+                "option": []
+            },
+            {
+                "name": "开锁时秒数",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "更改心跳间隔时间",
+        "cmd"       : "S307",
+        "parameters": [
+            {
+                "name": "心跳间隔(秒)",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "更改GPS预开启时间",
+        "cmd"       : "S308",
+        "parameters": [
+            {
+                "name": "GPS预开启时间(秒)",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置震动检测",
+        "cmd"       : "S311",
+        "parameters": [
+            {
+                "name": "选项",
+                "type": "single",
+                "option": [
+                    "关",
+                    "开",
+                ]
+            }
+        ]
+    },
+    {
+        "name"      : "设置区域锁",
+        "cmd"       : "S312",
+        "parameters": [
+            {
+                "name": "选项",
+                "type": "single",
+                "option": [
+                    "普通",
+                    "区域",
+                ]
+            }
+        ]
+    },
+    {
+        "name"      : "设置区域锁可关",
+        "cmd"       : "S313",
+        "parameters": [
+            {
+                "name": "可锁等待秒数",
+                "type": "input",
+                "option": []
+            },
+            {
+                "name": "响铃次数",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "查询区域锁模式",
+        "cmd"       : "S314",
+        "parameters": []
+    },
+    {
+        "name"      : "设置轮胎周长",
+        "cmd"       : "S309",
+        "parameters": [
+            {
+                "name": "轮胎周长(米)",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "进入出厂模式",
+        "cmd"       : "S310",
+        "parameters": []
+    },
+    {
+        "name"      : "查询蓝牙密码",
+        "cmd"       : "S315",
+        "parameters": []
+    },
+    {
+        "name"      : "查询蓝牙秘钥",
+        "cmd"       : "S316",
+        "parameters": []
+    },
+    {
+        "name"      : "设置蓝牙密码",
+        "cmd"       : "S317",
+        "parameters": [
+            {
+                "name": "密码",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置蓝牙秘钥",
+        "cmd"       : "S318",
+        "parameters": [
+            {
+                "name": "密钥",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "查询锁模式",
+        "cmd"       : "S319",
+        "parameters": []
+    },
+    {
+        "name"      : "设置蓝牙桩扫描时长",
+        "cmd"       : "S320",
+        "parameters": [
+            {
+                "name": "扫描时长",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置蓝牙桩扫描间隔",
+        "cmd"       : "S321",
+        "parameters": [
+            {
+                "name": "扫描间隔",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置蓝牙桩是否扫描",
+        "cmd"       : "S322",
+        "parameters": [
+            {
+                "name": "选项",
+                "type": "single",
+                "option": [
+                    "否",
+                    "是",
+                ]
+            }
+        ]
+    },
+    {
+        "name"      : "设置蓝牙桩名称",
+        "cmd"       : "S323",
+        "parameters": [
+            {
+                "name": "名称",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "查询蓝牙桩参数",
+        "cmd"       : "S324",
+        "parameters": []
+    },
+    {
+        "name"      : "下发扫描蓝牙桩指令",
+        "cmd"       : "S325",
+        "parameters": []
+    }
+]
