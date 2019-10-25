@@ -25,6 +25,11 @@
         "parameters": []
     },
     {
+        "name"      : "找车响铃",
+        "cmd"       : "S203",
+        "parameters": []
+    },
+    {
         "name"      : "获取锁状态",
         "cmd"       : "S201",
         "parameters": []
@@ -32,11 +37,6 @@
     {
         "name"      : "重启设备",
         "cmd"       : "S900",
-        "parameters": []
-    },
-    {
-        "name"      : "找车响铃",
-        "cmd"       : "S203",
         "parameters": []
     },
     {
