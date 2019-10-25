@@ -1,10 +1,5 @@
 [
     {
-        "name"      : "重启设备",
-        "cmd"       : "S900",
-        "parameters": []
-    },
-    {
         "name"      : "开锁",
         "cmd"       : "S202",
         "parameters": []
@@ -27,6 +22,11 @@
     {
         "name"      : "打开电池仓",
         "cmd"       : "S328",
+        "parameters": []
+    },
+    {
+        "name"      : "重启设备",
+        "cmd"       : "S900",
         "parameters": []
     },
     {
