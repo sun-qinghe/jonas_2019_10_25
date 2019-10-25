@@ -25,13 +25,13 @@
         "parameters": []
     },
     {
-        "name"      : "重启设备",
-        "cmd"       : "S900",
+        "name"      : "获取锁状态",
+        "cmd"       : "S201",
         "parameters": []
     },
     {
-        "name"      : "获取锁状态",
-        "cmd"       : "S201",
+        "name"      : "重启设备",
+        "cmd"       : "S900",
         "parameters": []
     },
     {
