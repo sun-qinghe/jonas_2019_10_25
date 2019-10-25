@@ -5,11 +5,6 @@
         "parameters": []
     },
     {
-        "name"      : "获取锁状态",
-        "cmd"       : "S201",
-        "parameters": []
-    },
-    {
         "name"      : "开锁",
         "cmd"       : "S202",
         "parameters": []
@@ -32,6 +27,11 @@
     {
         "name"      : "打开电池仓",
         "cmd"       : "S328",
+        "parameters": []
+    },
+    {
+        "name"      : "获取锁状态",
+        "cmd"       : "S201",
         "parameters": []
     },
     {
