@@ -5,17 +5,6 @@
         "parameters": []
     },
     {
-        "name"      : "远程升级",
-        "cmd"       : "S200",
-        "parameters": [
-            {
-                "name": "http地址",
-                "type": "input",
-                "option": []
-            }
-        ]
-    },
-    {
         "name"      : "获取锁状态",
         "cmd"       : "S201",
         "parameters": []
@@ -215,22 +204,6 @@
         "parameters": []
     },
     {
-        "name"      : "设置轮胎周长",
-        "cmd"       : "S309",
-        "parameters": [
-            {
-                "name": "轮胎周长(米)",
-                "type": "input",
-                "option": []
-            }
-        ]
-    },
-    {
-        "name"      : "进入出厂模式",
-        "cmd"       : "S310",
-        "parameters": []
-    },
-    {
         "name"      : "查询蓝牙密码",
         "cmd"       : "S315",
         "parameters": []
@@ -322,6 +295,33 @@
     {
         "name"      : "下发扫描蓝牙桩指令",
         "cmd"       : "S325",
+        "parameters": []
+    },
+    {
+        "name"      : "远程升级",
+        "cmd"       : "S200",
+        "parameters": [
+            {
+                "name": "http地址",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "设置轮胎周长",
+        "cmd"       : "S309",
+        "parameters": [
+            {
+                "name": "轮胎周长(米)",
+                "type": "input",
+                "option": []
+            }
+        ]
+    },
+    {
+        "name"      : "进入出厂模式",
+        "cmd"       : "S310",
         "parameters": []
     }
 ]
