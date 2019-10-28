@@ -241,63 +241,6 @@
         "parameters": []
     },
     {
-        "name"      : "设置蓝牙桩扫描时长",
-        "cmd"       : "S320",
-        "parameters": [
-            {
-                "name": "扫描时长",
-                "type": "input",
-                "option": []
-            }
-        ]
-    },
-    {
-        "name"      : "设置蓝牙桩扫描间隔",
-        "cmd"       : "S321",
-        "parameters": [
-            {
-                "name": "扫描间隔",
-                "type": "input",
-                "option": []
-            }
-        ]
-    },
-    {
-        "name"      : "设置蓝牙桩是否扫描",
-        "cmd"       : "S322",
-        "parameters": [
-            {
-                "name": "选项",
-                "type": "single",
-                "option": [
-                    "否",
-                    "是",
-                ]
-            }
-        ]
-    },
-    {
-        "name"      : "设置蓝牙桩名称",
-        "cmd"       : "S323",
-        "parameters": [
-            {
-                "name": "名称",
-                "type": "input",
-                "option": []
-            }
-        ]
-    },
-    {
-        "name"      : "查询蓝牙桩参数",
-        "cmd"       : "S324",
-        "parameters": []
-    },
-    {
-        "name"      : "下发扫描蓝牙桩指令",
-        "cmd"       : "S325",
-        "parameters": []
-    },
-    {
         "name"      : "远程升级",
         "cmd"       : "S200",
         "parameters": [
